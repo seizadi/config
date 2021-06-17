@@ -33,7 +33,7 @@ import (
 type (
 	// YAML has three fundamental types. When unmarshaled into interface{},
 	// they're represented like this.
-	mapping  = map[interface{}]interface{}
+	mapping  = map[string]interface{}
 	sequence = []interface{}
 	scalar   = interface{}
 )
